@@ -1,0 +1,16 @@
+Breeze is a suite of Scala libraries for numerical processing, machine learning, and natural language processing. Its primary focus is on being generic, clean, and powerful without sacrificing (much) efficiency.
+
+The library currently consists of several parts:
+
+breeze-math: Linear algebra and numerics routines
+breeze-process: Libraries for processing text and managing data pipelines.
+breeze-learn: Machine Learning, Statistics, and Optimization.
+Possible future releases:
+
+breeze-viz: Vizualization and plotting
+breeze-fst: Finite state toolkit
+Breeze is the merger of the ScalaNLP and Scalala projects, because
+one of the original maintainers is unable to continue development.
+The Scalala parts are largely rewritten.
+
+Epic is a high-performance statistical parser written in Scala. It uses Expectation Propagation to build complex models without suffering the exponential runtimes one would get in a naive model. Epic is nearly state-of-the-art on the standard benchmark dataset in Natural Language Processing. We will be releasing Epic soon.
